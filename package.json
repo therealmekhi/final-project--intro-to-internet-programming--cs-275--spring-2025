@@ -1,0 +1,25 @@
+{
+  "name": "sliding-diamond",
+  "version": "1.0.0",
+  "description": "CS-275 Final Project - Sliding Diamond",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "author": "Mekhi Hall",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-html-validator": "^0.0.5",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-terser": "^2.1.0"
+  }
+}

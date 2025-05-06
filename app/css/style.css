@@ -1,0 +1,36 @@
+/* Ensure full-screen layout with no scrollbars */
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: monospace;
+  background-color: white;
+}
+
+/* Container that holds the diamond */
+#diamond-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  font-size: 24px;
+  line-height: 1.2;
+  left: 0; /* Will be animated horizontally */
+}
+
+/* Each row of the diamond */
+.row {
+  text-align: center;
+  height: 1.5em;
+}
+
+/* Asterisk */
+.star {
+  display: inline-block;
+  width: 1ch;
+}
+
+/* Space between stars or edges */
+.space {
+  display: inline-block;
+  width: 1ch;
+}
